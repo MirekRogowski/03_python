@@ -35,10 +35,10 @@ while count_packages < max_packages:
         print(f"Do następnej paczki waży {current_weight_package} kilogramów")
         print('*'*width)
 
-print(f"Waga wszytkich paczek: {count_kg_packages} ")
 print(f"Liczba wysłanych paczek : {count_packages}")
+print(f"Waga wszytkich paczek: {count_kg_packages} ")
 print(f"Suma pustych kilogramów: {count_packages * max_weight_package - count_kg_packages}")
-print(f"Najlżejsza paczka numer {number_min_weight_package} waga {min_weight_package}") 
+print(f"Paczka numer {number_min_weight_package} ma najwięcej pustych kilogramów - {max_weight_package - min_weight_package} kg") 
 
 
 print('Goodbye !')        
