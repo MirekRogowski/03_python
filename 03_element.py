@@ -11,9 +11,9 @@ min_weight_package = 20
 current_weight_package = 0
 #weight_package = 0
 number_min_weight_package = 0
-
+print("0 kończy program ")
+print("Wartość mniejsza niż 1 i większa niż 10 kończy program błędem ")
 max_elements = int(input("Ile elementów chcesz spakować: "))
-print("0 kończy program w dowolnej ")
 
 while count_elements < max_elements:
     element_weight = int(input("Podaj wagę elementu dodanego do paczki "))
@@ -53,5 +53,3 @@ print(f"Waga wszytkich paczek: {count_kg_packages} ")
 print(f"Suma pustych kilogramów: {count_packages * max_weight_package - count_kg_packages}")
 print(f"Paczka numer {number_min_weight_package} ma najwięcej pustych kilogramów - {max_weight_package - min_weight_package} kg") 
 print('*'*width)
-      
-
