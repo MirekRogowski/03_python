@@ -45,7 +45,7 @@ while count_elements < max_elements:
         count_kg_packages += current_weight_package
         print('*'*width)
         print(f"Paczka numer {count_packages} o wadze {current_weight_package} została wysłana")
-        print(f"To była ostania paczka")
+        print(f"To była ostania paczka, wysłano {max_elements} w {count_packages} paczkach")
         print('*'*width)
 print(f"Liczba wysłanych paczek : {count_packages}")
 print(f"Waga wszytkich paczek: {count_kg_packages} ")
