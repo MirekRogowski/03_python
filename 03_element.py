@@ -40,12 +40,13 @@ while count_elements < max_elements:
     count_elements +=1  #liczy elementy
     if count_elements == max_elements:
         count_packages +=1 
-        min_weight_package = current_weight_package
-        number_min_weight_package = count_packages
+        if min_weight_package >= current_weight_package:
+            min_weight_package = current_weight_package
+            number_min_weight_package = count_packages
         count_kg_packages += current_weight_package
         print('*'*width)
         print(f"Paczka numer {count_packages} o wadze {current_weight_package} została wysłana")
-        print(f"To była ostania paczka, wysłano {max_elements} w {count_packages} paczkach")
+        print(f"To była ostania paczka")
         print('*'*width)
 print(f"Liczba wysłanych paczek : {count_packages}")
 print(f"Waga wszytkich paczek: {count_kg_packages} ")
@@ -53,3 +54,4 @@ print(f"Suma pustych kilogramów: {count_packages * max_weight_package - count_k
 print(f"Paczka numer {number_min_weight_package} ma najwięcej pustych kilogramów - {max_weight_package - min_weight_package} kg") 
 print('*'*width)
       
+
