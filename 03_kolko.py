@@ -112,15 +112,48 @@ while True:
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
                 print("X | X | O       4 | 5 | 6")
-                print("0 | - | -       7 | 8 | 9")
+                print("0 | X | -       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                grastep3 = input("Chcesz grać dalej t - tak , n -nie ")
-                if grastep3 == "t":
-                    print("\nNowa gra")
-                    continue
-                else:
-                    break  
+                step4 = int(input("Wybierz numer pola: "))
+                if step4 == 2:
+                    print("\n")
+                    print("O | - | X       1 | 2 | 3")
+                    print("X | X | O       4 | 5 | 6")
+                    print("O | X | -       7 | 8 | 9")
+                    print("\n")
+                    print("\n")
+                    print("O | 0 | X       1 | 2 | 3")
+                    print("X | X | O       4 | 5 | 6")
+                    print("0 | X | -       7 | 8 | 9")
+                    print("\n")
+                    step5 = int(input("Wybierz numer pola: "))
+                    if step5 == 9:
+                        print("\n")
+                        print("O | 0 | X       1 | 2 | 3")
+                        print("X | X | O       4 | 5 | 6")
+                        print("0 | X | 0       7 | 8 | 9")
+                        print("\nRemis\n")
+                        print("Koniec gry")
+                        exit()
+
+                elif step4 == 9:
+                    print("\n")
+                    print("O | - | X       1 | 2 | 3")
+                    print("X | X | O       4 | 5 | 6")
+                    print("O | X | -       7 | 8 | 9")
+                    print("\n")
+                    print("\n")
+                    print("O | X | X       1 | 2 | 3")
+                    print("X | X | O       4 | 5 | 6")
+                    print("0 | X | -       7 | 8 | 9")
+                    print("\n")  
+                    print("Przegrana")
+                    grastep4 = input("Chcesz grać dalej t - tak , n -nie ")
+                    if grastep4 == "t":
+                        print("\nNowa gra")
+                        continue
+                    else:
+                        break                
             elif step3 == 8:
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
