@@ -19,131 +19,181 @@ while True:
         print("- | - | -       7 | 8 | 9")
         print("\n")
         step12 = int(input("Wybierz numer pola: "))
-        if step12 == 2:
-            print("\n")
-            print("O | O | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("- | - | -       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | O | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("X | - | -       7 | 8 | 9")
-            print("\n")
-            print("Przegrana")
-            gra = input("Chcesz grać dalej t - tak , n -nie ")
-            if gra == "t":
-                print("Nowa gra")
-                continue
-            else:
-                break
-        elif step12 == 4:
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("O | X | -       4 | 5 | 6")
-            print("- | - | -       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("O | X | -       4 | 5 | 6")
-            print("X | - | -       7 | 8 | 9")
-            print("\n")
-            print("Przegrana")
-            gra = input("Chcesz grać dalej t - tak , n -nie ")
-            if gra == "t":
-                print("Nowa gra")
-                continue
-            else:
-                break            
-        elif step12 == 6:
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | 0       4 | 5 | 6")
-            print("- | - | -       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | 0       4 | 5 | 6")
-            print("X | - | -       7 | 8 | 9")
-            print("\n")
-            print("Przegrana")
-            gra = input("Chcesz grać dalej t - tak , n -nie ")
-            if gra == "t":
-                print("Nowa gra")
-                continue
-            else:
-                break  
-        elif step12 == 7:
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("0 | - | -       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("X | X | -       4 | 5 | 6")
-            print("0 | - | -       7 | 8 | 9")
-            print("\n")
-            step13 = int(input("Wybierz numer pola: "))
-            if step13 == 2:
+        while step12 != 2 or step12 != 4 or step12 != 6 or step12 != 7 or step12 != 8 or step12 != 9:
+            if step12 == 2:
                 print("\n")
                 print("O | O | X       1 | 2 | 3")
+                print("- | X | -       4 | 5 | 6")
+                print("- | - | -       7 | 8 | 9")
+                print("\n")
+                print("\n")
+                print("O | O | X       1 | 2 | 3")
+                print("- | X | -       4 | 5 | 6")
+                print("X | - | -       7 | 8 | 9")
+                print("\n")
+                print("Przegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                if gra == "t":
+                    print("Nowa gra")
+                    break 
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif step12 == 4:
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
+                print("O | X | -       4 | 5 | 6")
+                print("- | - | -       7 | 8 | 9")
+                print("\n")
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
+                print("O | X | -       4 | 5 | 6")
+                print("X | - | -       7 | 8 | 9")
+                print("\n")
+                print("Przegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                if gra == "t":
+                    print("Nowa gra")
+                    break 
+                else:
+                    print("\nKoniec\n")
+                    exit()       
+            elif step12 == 6:
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
+                print("- | X | 0       4 | 5 | 6")
+                print("- | - | -       7 | 8 | 9")
+                print("\n")
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
+                print("- | X | 0       4 | 5 | 6")
+                print("X | - | -       7 | 8 | 9")
+                print("\n")
+                print("Przegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                if gra == "t":
+                    print("Nowa gra")
+                    break 
+                else:
+                    print("\nKoniec\n")
+                    exit() 
+            elif step12 == 7:
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
+                print("- | X | -       4 | 5 | 6")
+                print("0 | - | -       7 | 8 | 9")
+                print("\n")
+                print("\n")
+                print("O | - | X       1 | 2 | 3")
                 print("X | X | -       4 | 5 | 6")
                 print("0 | - | -       7 | 8 | 9")
                 print("\n")
-                print("\n")
-                print("O | O | X       1 | 2 | 3")
-                print("X | X | X       4 | 5 | 6")
-                print("0 | - | -       7 | 8 | 9")
-                print("\n")
-                print("Przegrana")
-                grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
-                if grastep13 == "t":
-                    print("\nNowa gra")
-                    continue
-                else:
-                    break  
-            elif step13 == 6:
-                print("\n")
-                print("O | - | X       1 | 2 | 3")
-                print("X | X | O       4 | 5 | 6")
-                print("0 | - | -       7 | 8 | 9")
-                print("\n")
-                print("\n")
-                print("O | - | X       1 | 2 | 3")
-                print("X | X | O       4 | 5 | 6")
-                print("0 | X | -       7 | 8 | 9")
-                print("\n")
-                step14 = int(input("Wybierz numer pola: "))
-                while step14 !=2 or step14 != 9:
-                    if step14 == 2:
+                step13 = int(input("Wybierz numer pola: "))
+                while step13 != 2 or step13 != 6 or step13 != 8 or step13 != 9:
+                    if step13 == 2:
+                        print("\n")
+                        print("O | O | X       1 | 2 | 3")
+                        print("X | X | -       4 | 5 | 6")
+                        print("0 | - | -       7 | 8 | 9")
+                        print("\n")
+                        print("\n")
+                        print("O | O | X       1 | 2 | 3")
+                        print("X | X | X       4 | 5 | 6")
+                        print("0 | - | -       7 | 8 | 9")
+                        print("\n")
+                        print("Przegrana")
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        if grastep13 == "t":
+                            print("\nNowa gra")
+                            break
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    elif step13 == 6:
                         print("\n")
                         print("O | - | X       1 | 2 | 3")
                         print("X | X | O       4 | 5 | 6")
-                        print("O | X | -       7 | 8 | 9")
+                        print("0 | - | -       7 | 8 | 9")
                         print("\n")
-                        print("\n")
-                        print("O | 0 | X       1 | 2 | 3")
-                        print("X | X | O       4 | 5 | 6")
-                        print("0 | X | X       7 | 8 | 9")
-                        print("\n")
-                        print("\nRemis\n")
-                        print("Koniec gry\n")
-                        exit()
-                    elif step14 == 9:
                         print("\n")
                         print("O | - | X       1 | 2 | 3")
-                        print("X | X | O       4 | 5 | 6")
-                        print("O | X | -       7 | 8 | 9")
-                        print("\n")
-                        print("\n")
-                        print("O | X | X       1 | 2 | 3")
                         print("X | X | O       4 | 5 | 6")
                         print("0 | X | -       7 | 8 | 9")
-                        print("\n")  
+                        print("\n")
+                        step14 = int(input("Wybierz numer pola: "))
+                        while step14 !=2 or step14 != 9:
+                            if step14 == 2:
+                                print("\n")
+                                print("O | - | X       1 | 2 | 3")
+                                print("X | X | O       4 | 5 | 6")
+                                print("O | X | -       7 | 8 | 9")
+                                print("\n")
+                                print("\n")
+                                print("O | 0 | X       1 | 2 | 3")
+                                print("X | X | O       4 | 5 | 6")
+                                print("0 | X | X       7 | 8 | 9")
+                                print("\n")
+                                print("\nRemis\n")
+                                print("Koniec gry\n")
+                                exit()
+                            elif step14 == 9:
+                                print("\n")
+                                print("O | - | X       1 | 2 | 3")
+                                print("X | X | O       4 | 5 | 6")
+                                print("O | X | -       7 | 8 | 9")
+                                print("\n")
+                                print("\n")
+                                print("O | X | X       1 | 2 | 3")
+                                print("X | X | O       4 | 5 | 6")
+                                print("0 | X | -       7 | 8 | 9")
+                                print("\n")  
+                                print("Przegrana")
+                                grastep4 = input("Chcesz grać dalej t - tak , n -nie ")
+                                if grastep4 == "t":
+                                    print("\nNowa gra")
+                                    break
+                                else:
+                                    print("\nKoniec\n")
+                                    exit()
+                            else:
+                                print("Błąd") 
+                                step14 = int(input("Wprowadź prawidłową wartość: ") )
+                                continue
+                        
+
+                    elif step13 == 8:
+                        print("\n")
+                        print("O | - | X       1 | 2 | 3")
+                        print("X | X | -       4 | 5 | 6")
+                        print("0 | - | -       7 | 8 | 9")
+                        print("\n")
+                        print("\n")
+                        print("O | - | X       1 | 2 | 3")
+                        print("X | X | X       4 | 5 | 6")
+                        print("0 | 0 | -       7 | 8 | 9")
+                        print("\n")
                         print("Przegrana")
-                        grastep4 = input("Chcesz grać dalej t - tak , n -nie ")
-                        if grastep4 == "t":
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        if grastep13 == "t":
+                            print("\nNowa gra")
+                            break
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    elif step13 == 9:
+                        print("\n")
+                        print("O | - | X       1 | 2 | 3")
+                        print("X | X | -       4 | 5 | 6")
+                        print("0 | - | O       7 | 8 | 9")
+                        print("\n")
+                        print("\n")
+                        print("O | - | X       1 | 2 | 3")
+                        print("X | X | X       4 | 5 | 6")
+                        print("0 | - | O       7 | 8 | 9")
+                        print("\n")
+                        print("Przegrana")
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        if grastep13 == "t":
                             print("\nNowa gra")
                             break
                         else:
@@ -151,82 +201,51 @@ while True:
                             exit()
                     else:
                         print("Błąd") 
-                        step14 = int(input("Wprowadź prawidłową wartość: ") )
-                        continue
-
-            elif step13 == 8:
+                        step13 = int(input("Wprowadź prawidłową wartość: ") )
+                        continue            
+    
+            elif step12 == 8:
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
-                print("X | X | -       4 | 5 | 6")
-                print("0 | - | -       7 | 8 | 9")
+                print("- | X | -       4 | 5 | 6")
+                print("- | 0 | -       7 | 8 | 9")
                 print("\n")
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
-                print("X | X | X       4 | 5 | 6")
-                print("0 | 0 | -       7 | 8 | 9")
+                print("- | X | -       4 | 5 | 6")
+                print("X | O | -       7 | 8 | 9")
                 print("\n")
                 print("Przegrana")
-                grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
-                if grastep13 == "t":
-                    print("\nNowa gra")
-                    continue
+                gra = input("Chcesz grać step12 t - tak , n -nie ")
+                if gra == "t":
+                    print("Nowa gra")
+                    break 
                 else:
-                    break  
-            elif step13 == 9:
+                    print("\nKoniec\n")
+                    exit()
+            elif step12 == 9:
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
-                print("X | X | -       4 | 5 | 6")
-                print("0 | - | O       7 | 8 | 9")
+                print("- | X | -       4 | 5 | 6")
+                print("- | - | 0       7 | 8 | 9")
                 print("\n")
                 print("\n")
                 print("O | - | X       1 | 2 | 3")
-                print("X | X | X       4 | 5 | 6")
-                print("0 | - | O       7 | 8 | 9")
+                print("- | X | -       4 | 5 | 6")
+                print("X | - | 0       7 | 8 | 9")
                 print("\n")
                 print("Przegrana")
-                grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
-                if grastep13 == "t":
-                    print("\nNowa gra")
-                    continue
+                gra = input("Chcesz grać step12 t - tak , n -nie ")
+                if gra == "t":
+                    print("Nowa gra")
+                    break 
                 else:
-                    break  
- 
-        elif step12 == 8:
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("- | 0 | -       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("X | O | -       7 | 8 | 9")
-            print("\n")
-            print("Przegrana")
-            gra = input("Chcesz grać step12 t - tak , n -nie ")
-            if gra == "t":
-                print("Nowa gra")
-                continue
+                    print("\nKoniec\n")
+                    exit()
             else:
-                break  
-        elif step12 == 9:
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("- | - | 0       7 | 8 | 9")
-            print("\n")
-            print("\n")
-            print("O | - | X       1 | 2 | 3")
-            print("- | X | -       4 | 5 | 6")
-            print("X | - | 0       7 | 8 | 9")
-            print("\n")
-            print("Przegrana")
-            gra = input("Chcesz grać step12 t - tak , n -nie ")
-            if gra == "t":
-                print("Nowa gra")
-                continue
-            else:
-                break  
+                print("Błąd") 
+                step12 = int(input("Wprowadź prawidłową wartość: ") )
+                continue   
     #koniec dla pola numer 1
     elif step1 == 2:
         print("\n")
