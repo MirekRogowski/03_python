@@ -31,10 +31,10 @@ while True:
                 print("- | X | -       4 | 5 | 6")
                 print("X | - | -       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                print("Przegrana\n")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
                 if gra == "t":
-                    print("Nowa gra")
+                    print("\nNowa gra")
                     break 
                 else:
                     print("\nKoniec\n")
@@ -50,10 +50,10 @@ while True:
                 print("O | X | -       4 | 5 | 6")
                 print("X | - | -       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                print("Przegrana\n")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
                 if gra == "t":
-                    print("Nowa gra")
+                    print("\nNowa gra")
                     break 
                 else:
                     print("\nKoniec\n")
@@ -69,10 +69,10 @@ while True:
                 print("- | X | 0       4 | 5 | 6")
                 print("X | - | -       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                gra = input("Chcesz grać dalej t - tak , n -nie ")
+                print("Przegrana\n")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
                 if gra == "t":
-                    print("Nowa gra")
+                    print("\nNowa gra")
                     break 
                 else:
                     print("\nKoniec\n")
@@ -101,10 +101,10 @@ while True:
                         print("X | X | X       4 | 5 | 6")
                         print("0 | - | -       7 | 8 | 9")
                         print("\n")
-                        print("Przegrana")
-                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        print("Przegrana\n")
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie: ")
                         if grastep13 == "t":
-                            print("\nNowa gra")
+                            print("\n\nNowa gra")
                             break
                         else:
                             print("\nKoniec\n")
@@ -147,10 +147,10 @@ while True:
                                 print("X | X | O       4 | 5 | 6")
                                 print("0 | X | -       7 | 8 | 9")
                                 print("\n")  
-                                print("Przegrana")
-                                grastep4 = input("Chcesz grać dalej t - tak , n -nie ")
+                                print("Przegrana\n")
+                                grastep4 = input("Chcesz grać dalej t - tak , n -nie: ")
                                 if grastep4 == "t":
-                                    print("\nNowa gra")
+                                    print("\n\nNowa gra")
                                     break
                                 else:
                                     print("\nKoniec\n")
@@ -172,10 +172,10 @@ while True:
                         print("X | X | X       4 | 5 | 6")
                         print("0 | 0 | -       7 | 8 | 9")
                         print("\n")
-                        print("Przegrana")
-                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        print("Przegrana\n")
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie: ")
                         if grastep13 == "t":
-                            print("\nNowa gra")
+                            print("\n\nNowa gra")
                             break
                         else:
                             print("\nKoniec\n")
@@ -191,10 +191,10 @@ while True:
                         print("X | X | X       4 | 5 | 6")
                         print("0 | - | O       7 | 8 | 9")
                         print("\n")
-                        print("Przegrana")
-                        grastep13 = input("Chcesz grać dalej t - tak , n -nie ")
+                        print("Przegrana\n")
+                        grastep13 = input("Chcesz grać dalej t - tak , n -nie: ")
                         if grastep13 == "t":
-                            print("\nNowa gra")
+                            print("\n\nNowa gra")
                             break
                         else:
                             print("\nKoniec\n")
@@ -215,10 +215,10 @@ while True:
                 print("- | X | -       4 | 5 | 6")
                 print("X | O | -       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                gra = input("Chcesz grać step12 t - tak , n -nie ")
+                print("Przegrana\n")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
                 if gra == "t":
-                    print("Nowa gra")
+                    print("\nNowa gra")
                     break 
                 else:
                     print("\nKoniec\n")
@@ -234,10 +234,10 @@ while True:
                 print("- | X | -       4 | 5 | 6")
                 print("X | - | 0       7 | 8 | 9")
                 print("\n")
-                print("Przegrana")
-                gra = input("Chcesz grać step12 t - tak , n -nie ")
+                print("Przegrana\n")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
                 if gra == "t":
-                    print("Nowa gra")
+                    print("\nNowa gra")
                     break 
                 else:
                     print("\nKoniec\n")
@@ -247,6 +247,7 @@ while True:
                 step12 = int(input("Wprowadź prawidłową wartość: ") )
                 continue   
     #koniec dla pola numer 1
+# to do obsługa
     elif step1 == 2:
         print("\n")
         print("- | O | -       1 | 2 | 3")
