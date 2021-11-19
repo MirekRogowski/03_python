@@ -1,6 +1,6 @@
 count = 0
 x = int(input("Podaj wartosć: "))
-while True:
+while 1 <= x < 100:
     while x != 1:
         if not x %2:
             x = x/2
