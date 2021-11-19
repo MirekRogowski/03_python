@@ -280,6 +280,10 @@ while True:
         print("O | X | -       4 | 5 | 6")
         print("- | - | -       7 | 8 | 9")
         print("\n")  
+    elif step1 == 5:
+        print("\nBłąd")
+        print("Wprowadź prawidłowa wartość. ")
+        continue
     elif step1 == 6:
         print("\n")
         print("- | - | -       1 | 2 | 3")
