@@ -226,7 +226,205 @@ while True:
                 print(p4+p5+p6)
                 print(p7+p8+p9)                
                 continue
-      
+    
+
+
+    elif p == "2":
+        p2 = "O"
+        p1 = "X"
+        print(p1+p2+p3)
+        print(p4+p5+p6)
+        print(p7+p8+p9)
+        while True:
+            p12 = input("Wybierz pole: ")
+            if p12 == "3":
+                p3 = "O"
+                p9 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                print("\nPrzegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                if gra == "t":
+                    print("\nNowa gra")
+                    p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                    p5 = "X"
+                    print(p1+p2+p3)
+                    print(p4+p5+p6)
+                    print(p7+p8+p9)
+                    break            
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif p12 == "4":
+                p4 = "O"
+                p9 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                print("\nPrzegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                if gra == "t":
+                    print("\nNowa gra")
+                    p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                    p5 = "X"
+                    print(p1+p2+p3)
+                    print(p4+p5+p6)
+                    print(p7+p8+p9)
+                    break            
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif p12 == "6":
+                p6 = "O"
+                p9 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                print("\nPrzegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                if gra == "t":
+                    print("\nNowa gra")
+                    p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                    p5 = "X"
+                    print(p1+p2+p3)
+                    print(p4+p5+p6)
+                    print(p7+p8+p9)
+                    break            
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif p12 == "7":
+                p7 = "O"
+                p9 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                print("\nPrzegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                if gra == "t":
+                    print("\nNowa gra")
+                    p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                    p5 = "X"
+                    print(p1+p2+p3)
+                    print(p4+p5+p6)
+                    print(p7+p8+p9)
+                    break            
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif p12 == "8":
+                p8 = "O"
+                p9 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                print("\nPrzegrana")
+                gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                if gra == "t":
+                    print("\nNowa gra")
+                    p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                    p5 = "X"
+                    print(p1+p2+p3)
+                    print(p4+p5+p6)
+                    print(p7+p8+p9)
+                    break            
+                else:
+                    print("\nKoniec\n")
+                    exit()
+            elif p12 == "9":
+                p9 = "O"
+                p7 = "X"
+                print(p1+p2+p3)
+                print(p4+p5+p6)
+                print(p7+p8+p9)
+                while True:
+                    p123 = input("Wybierz pole: ")
+                    if p123 == "3":
+                        p3 = "O"
+                        p4 = "X"
+                        print(p1+p2+p3)
+                        print(p4+p5+p6)
+                        print(p7+p8+p9)
+                        print("\nPrzegrana")
+                        gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                        if gra == "t":
+                            print("\nNowa gra")
+                            p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                            p5 = "X"
+                            print(p1+p2+p3)
+                            print(p4+p5+p6)
+                            print(p7+p8+p9)
+                            break            
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    elif p123 == "4":
+                        p4 = "O"
+                        p3 = "X"
+                        print(p1+p2+p3)
+                        print(p4+p5+p6)
+                        print(p7+p8+p9)
+                        print("\nPrzegrana")
+                        gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                        if gra == "t":
+                            print("\nNowa gra")
+                            p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                            p5 = "X"
+                            print(p1+p2+p3)
+                            print(p4+p5+p6)
+                            print(p7+p8+p9)
+                            break            
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    elif p123 == "6":
+                        p6 = "O"
+                        p3 = "X"
+                        print(p1+p2+p3)
+                        print(p4+p5+p6)
+                        print(p7+p8+p9)
+                        print("\nPrzegrana")
+                        gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                        if gra == "t":
+                            print("\nNowa gra")
+                            p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                            p5 = "X"
+                            print(p1+p2+p3)
+                            print(p4+p5+p6)
+                            print(p7+p8+p9)
+                            break            
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    elif p123 == "8":
+                        p8 = "O"
+                        p3 = "X"
+                        print(p1+p2+p3)
+                        print(p4+p5+p6)
+                        print(p7+p8+p9)
+                        print("\nPrzegrana")
+                        gra = input("Chcesz grać dalej t - tak , n -nie: ")
+                        if gra == "t":
+                            print("\nNowa gra")
+                            p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
+                            p5 = "X"
+                            print(p1+p2+p3)
+                            print(p4+p5+p6)
+                            print(p7+p8+p9)
+                            break            
+                        else:
+                            print("\nKoniec\n")
+                            exit()
+                    else:
+                        print("\nBłąd")
+                        print("Wprowadź prawidłową wartość. \n")
+                        continue
+                break
+            else:
+                print("\nBłąd")
+                print("123 Wprowadź prawidłową wartość. \n")
+                continue
 
 
 
@@ -366,6 +564,7 @@ while True:
                         print(p1+p2+p3)
                         print(p4+p5+p6)
                         print(p7+p8+p9)
+                        print("\nPrzegrana")
                         gra = input("Chcesz grać dalej t - tak , n -nie: ")
                         if gra == "t":
                             print("\nNowa gra")
@@ -384,6 +583,7 @@ while True:
                         print(p1+p2+p3)
                         print(p4+p5+p6)
                         print(p7+p8+p9)
+                        print("\nPrzegrana")
                         gra = input("Chcesz grać dalej t - tak , n -nie: ")
                         if gra == "t":
                             print("\nNowa gra")
@@ -402,6 +602,7 @@ while True:
                         print(p1+p2+p3)
                         print(p4+p5+p6)
                         print(p7+p8+p9)
+                        print("\nPrzegrana")
                         gra = input("Chcesz grać dalej t - tak , n -nie: ")
                         if gra == "t":
                             print("\nNowa gra")
@@ -416,24 +617,9 @@ while True:
                             exit()
                     else:
                         print("\nBłąd")
-                        print("-test Wprowadź prawidłową wartość. \n")
+                        print("Wprowadź prawidłową wartość. \n")
                         continue
                 break
-        
-
-                
-                #gra = input("Chcesz grać dalej t - tak , n -nie: ")
-                # if gra == "t":
-                #     print("\nNowa gra")
-                #     p1 = p2 = p3 = p4 = p6 = p7 = p8 = p9 = "-"
-                #     p5 = "X"
-                #     print(p1+p2+p3)
-                #     print(p4+p5+p6)
-                #     print(p7+p8+p9)
-                #     break            
-                # else:
-                #     print("\nKoniec\n")
-                #     exit()
             else:
                 print("\nBłąd")
                 print("183 Wprowadź prawidłową wartość. \n")
