@@ -135,6 +135,7 @@ while True:
                             else:
                                 print("\nBłąd")
                                 print("Wprowadź prawidłową wartość. \n") 
+                            break
                     elif p123 == "8":
                         p8 = "O"
                         p6 = "X"
@@ -221,11 +222,12 @@ while True:
                     exit()
             else:
                 print("\nBłąd")
-                print("12 Wprowadź prawidłową wartość. \n")
+                print("Wprowadź prawidłową wartość. \n")
                 print(p1+p2+p3)
                 print(p4+p5+p6)
                 print(p7+p8+p9)                
                 continue
+            break
     elif p == "2":
         p2 = "O"
         p1 = "X"
@@ -422,6 +424,8 @@ while True:
                 print("\nBłąd")
                 print("Wprowadź prawidłową wartość. \n")
                 continue
+            
+        
     elif p == "3":
         p3 = "O"
         p1 = "X"
@@ -590,7 +594,9 @@ while True:
                                     exit()
                             else:
                                 print("\nBłąd")
-                                print("Wprowadź prawidłową wartość. \n") 
+                                print("1324 -Wprowadź prawidłową wartość. \n") 
+                            break
+                           
                     elif p132 == "7":
                         p7 = "O"
                         p4 = "X"
@@ -636,16 +642,17 @@ while True:
                         print(p4+p5+p6)
                         print(p7+p8+p9)                
                         continue
+                    break
                 break 
-
-
+            
             else:
                 print("\nBłąd")
-                print("12 Wprowadź prawidłową wartość. \n")
+                print("Wprowadź prawidłową wartość. \n")
                 print(p1+p2+p3)
                 print(p4+p5+p6)
                 print(p7+p8+p9)                
                 continue
+            break
     elif p == "4":
         p4 = "O"
         p1 = "X"
@@ -1266,6 +1273,7 @@ while True:
                 print(p4+p5+p6)
                 print(p7+p8+p9)                
                 continue
+            break
     elif p == "8":
         p8 = "O"
         p1 = "X"
@@ -1687,6 +1695,7 @@ while True:
                 print(p4+p5+p6)
                 print(p7+p8+p9)                
                 continue
+            break
     else:
         print("\nBłąd")
         print("Wprowadź prawidłową wartość. \n")
